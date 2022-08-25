@@ -1,4 +1,4 @@
-import java.util.LinkedList;
+//import java.util.LinkedList;
 
 public class Main {
 
@@ -10,10 +10,13 @@ public class Main {
         myList.add("Best");
         myList.add("Student");
 
-        myList.
+//        myList.remove("Best");
+        System.out.println(myList.delete("Best1"));
 
-        System.out.println(myList.size());
-        System.out.println(myList.getFirst());
-        System.out.println(myList.getLast());
+        System.out.println(myList);
+
+//        System.out.println(myList.size());
+//        System.out.println(myList.getFirst());
+//        System.out.println(myList.getLast());
     }
 }
